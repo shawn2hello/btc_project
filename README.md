@@ -29,6 +29,14 @@ pip install pandas
 pip install numpy
 pip install notebook
 
+```Set up config.ini file
+[X]
+username = xxxx@email.com
+password = xxxx
+email = xxxx@emal.com
+
+note: make sure to log out of your X account and log into the bot X account
+
 python -m venv .venv
 source .venv/bin/activate       # On Windows: .venv\Scripts\activate
 
