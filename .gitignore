@@ -1,0 +1,8 @@
+# Ignore virtual environment
+.venv/
+
+# Configuration files and sensitive data
+config.ini
+cookies.json
+.csv
+data/
