@@ -23,16 +23,17 @@ A Python-based project focused on Bitcoin data analysis and Twitter sentiment sc
 git clone https://github.com/shawn2hello/btc_project.git
 cd btc_project
 
-python -m venv .venv
-source .venv/bin/activate       # On Windows: .venv\Scripts\activate
-
-To Run Scripts
-jupyter notebook btc.ipynb
-python bitcoinPrice.py
-python twitterScraper.py
-
 ```install dependencies in venv
 pip install twikit
 pip install pandas
 pip install numpy
 pip install notebook
+
+python -m venv .venv
+source .venv/bin/activate       # On Windows: .venv\Scripts\activate
+
+```To Run Scripts
+jupyter notebook btc.ipynb
+python bitcoinPrice.py
+python twitterScraper.py
+
